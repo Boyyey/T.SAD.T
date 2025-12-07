@@ -1,0 +1,94 @@
+# Compiled binaries
+*.o
+*.so
+*.dylib
+*.exe
+lament
+lament.exe
+
+# Model files (large)
+model/*.bin
+model/*.pt
+model/*.pth
+model/*.safetensors
+model/checkpoints/
+
+# Dataset files (may be large)
+data/raw/*
+data/processed/*
+data/cache/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+ENV/
+
+# PyTorch
+*.pth
+*.pt
+checkpoints/
+logs/
+wandb/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+*.a
+*.lib
+*.dll
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+temp/
+tmp/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test outputs
+test_outputs/
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Quantization outputs
+quantized_weights/
+*.q4
+*.q8
+

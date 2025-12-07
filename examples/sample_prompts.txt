@@ -1,0 +1,43 @@
+# Sample Prompts for The Lament Engine
+
+## Witness Mode
+<|witness|>Tell me about historical events in 20th century Europe.
+<|witness|>What happened during the war?
+<|witness|>Describe the events that unfolded.
+
+## Judge Mode
+<|judge|>Analyze the moral implications of these events.
+<|judge|>What does justice require in this situation?
+<|judge|>Evaluate the ethical dimensions.
+
+## Rebuilder Mode
+<|rebuilder|>How can we prevent such events from recurring?
+<|rebuilder|>What steps can be taken toward healing?
+<|rebuilder|>How do we move forward constructively?
+
+## Silence Mode
+<|silence|>Reflect on the weight of history.
+<|silence|>What words remain when all is said?
+
+## Expected Behaviors
+
+### Witness Mode
+- First-person or observational perspective
+- Factual recounting
+- Historical context
+
+### Judge Mode
+- Analytical tone
+- Moral evaluation
+- Balanced perspective
+
+### Rebuilder Mode
+- Forward-looking
+- Constructive proposals
+- Hope and prevention
+
+### Silence Mode
+- May self-terminate
+- Reflective, meditative
+- May output silence message after generation
+

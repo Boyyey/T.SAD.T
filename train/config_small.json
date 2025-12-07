@@ -1,0 +1,40 @@
+{
+  "model": {
+    "vocab_size": 32000,
+    "hidden_size": 512,
+    "num_layers": 6,
+    "num_heads": 8,
+    "head_dim": 64,
+    "ffn_inner_size": 2048,
+    "max_seq_len": 512,
+    "rope_theta": 10000.0,
+    "norm_eps": 1e-5
+  },
+  "training": {
+    "batch_size": 16,
+    "learning_rate": 2e-4,
+    "weight_decay": 0.01,
+    "warmup_steps": 200,
+    "max_steps": 5000,
+    "gradient_clip": 1.0,
+    "save_steps": 500,
+    "eval_steps": 250,
+    "logging_steps": 50
+  },
+  "data": {
+    "train_path": "../data/processed/train.txt",
+    "val_path": "../data/processed/val.txt",
+    "test_path": "../data/processed/test.txt"
+  },
+  "special_tokens": {
+    "witness": 32000,
+    "judge": 32001,
+    "rebuilder": 32002,
+    "silence": 32003,
+    "silent_end": 32004,
+    "reset": 32005,
+    "pad": 32006,
+    "eos": 32007
+  }
+}
+
