@@ -1,6 +1,6 @@
 # The Lament Engine
 
-A small, haunting language model trained on curated texts about human atrocities, moral philosophy, and rebuilding narratives. The model supports explicit modes: **witness**, **judge**, **rebuilder**, and **silence**.
+A small, haunting language model trained on curated texts about human atrocities, moral philosophy, and rebuilding narratives. The model supports explicit modes: **witness**, **judge**, **rebuilder**, and **silence**...
 
 ## ⚠️ Content Warning
 
